@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@yield('title', 'Restaurant ERP & POS') | Ultra Modern KDS</title>
+    <title>@yield('title', 'Sriinnov Restaurant Management') | POS & KDS</title>
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap Icons -->
@@ -15,8 +15,8 @@
 <body>
     <!-- Glassmorphic Sidebar -->
     <aside class="sidebar-wrapper">
-        <a href="{{ route('dashboard', [], false) ?? '#' }}" class="sidebar-brand">
-            <i class="bi bi-fire me-2 text-warning"></i> ANTIGRAVITY <span class="text-white ms-1 fw-light">ERP</span>
+        <a href="{{ route('dashboard', [], false) ?? '#' }}" class="sidebar-brand text-decoration-none">
+            <i class="bi bi-shop me-2 text-warning"></i> SRIINNOV <span class="text-white ms-1 fw-light" style="font-size: 0.82rem;">Restaurant Mgmt</span>
         </a>
         
         <div class="sidebar-nav">
